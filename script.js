@@ -1,4 +1,5 @@
 const windowInnerHeight = document.documentElement.clientHeight;
 var doc = document.querySelectorAll("section");
-doc.height = windowInnerHeight + "px";
+Window.print(doc.style)
+//doc.height = windowInnerHeight + "px";
 Window.print(windowInnerHeight);
